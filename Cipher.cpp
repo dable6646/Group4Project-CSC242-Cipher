@@ -4,6 +4,8 @@
 #include <cctype>
 using namespace std;
 
+// Danielle A.
+
 // Build cipher alphabet from keyword
 string buildCipher(const string& keyword) {
     bool used[26] = {false};
