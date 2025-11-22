@@ -27,10 +27,17 @@ punctuation, digits) are copied unchanged.
 
 Testing from the project folder:
 
-** Need to download g++ (MinGW-w64) in order to utilize this program **
+- Need to download g++.exe (MinGW-w64) in order to utilize this program
+>> To install this please visit https://winlibs.com/ and select the latest gcc win644 version if using a windows device (if not windows device, select the latest included for your OS).
+>> Compile program: g++ -std=c++11 -o Cipher Cipher.cpp
+** After running the above command line, you will now see 'Cipher.exe' in your repository.
 
-- Encrypt: ./crypt -kFEATHER sample_normal.txt encrypted.txt 
+## Testing
+
+- Encrypt: .\Cipher -kFEATHER sample_plain.txt encrypted.txt 
 >> Encrpyts your txt file and pushes the encryption to a txt file named 'encrypted.txt'
 
-- Decrypt: ./crypt -d -kFEATHER sample_encrypted.txt decrypted.txt
+- Decrypt: .\Cipher -d -kFEATHER encrypted.txt decrypted.txt
 >> Decrypts your txt file and pushes the decryption to a txt file names 'decrypted.txt'
+
+Depending on which command you ran (encrypt or decrypt), you should now see the relative text files in your explorer.
