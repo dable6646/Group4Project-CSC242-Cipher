@@ -22,6 +22,7 @@ punctuation, digits) are copied unchanged.
 - Cipher.cpp:  source code for the program
 - sample_normal.txt:  sample plain/normal text for encryption
 - sample_encrypted.txt:  sample encrypted text for decryption
+- CSC 242 Final Assignment 8.7.docx is the pseudocode for this program.
 
 ## Building/Compiling
 
